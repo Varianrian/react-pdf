@@ -29,9 +29,9 @@ class JPEG {
       }
     }
 
-    if (this.orientation > 4) {
-      [this.width, this.height] = [this.height, this.width];
-    }
+    // if (this.orientation > 4) {
+    //   [this.width, this.height] = [this.height, this.width];
+    // }
   }
 }
 
